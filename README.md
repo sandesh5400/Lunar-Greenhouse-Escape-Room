@@ -95,5 +95,5 @@ Lunar-Greenhouse-Escape-Room/
 Version 2 uses deterministic intent patterns and aliases rather than unrestricted natural-language understanding. This keeps state transitions auditable and prevents the LLM from authorizing puzzle completion. Version 1 is intentionally more flexible and less robust, consistent with the staged project brief.
 
 ## Author
-Sayan Kr. Dutta  
+Sandesh HP 
 University of Europe for Applied Sciences
