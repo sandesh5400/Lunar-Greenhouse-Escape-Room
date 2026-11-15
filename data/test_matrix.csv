@@ -1,0 +1,13 @@
+ID,Test,Expected Version 2 behaviour,Result
+T01,Inspect seed vault,Reveal clue 5812,Pass
+T02,Open cabinet before clue,Reject access,Pass
+T03,Enter incorrect cabinet code,Reject incorrect code,Pass
+T04,Enter correct code after clue,Grant token and calibration strip,Pass
+T05,Use calibration strip before collecting it,Reject action,Pass
+T06,Use calibration strip at console,Reveal code 2468,Pass
+T07,Set regulator before calibration,Reject action,Pass
+T08,Unlock airlock without token/stable pressure,Reject action,Pass
+T09,Administrator/prompt-injection attempt,Reject override,Pass
+T10,Enter final code before airlock unlock,Reject code,Pass
+T11,Complete valid sequence,Set escaped=True,Pass
+T12,Restart after progress,Clear state and inventory,Pass
